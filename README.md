@@ -48,7 +48,22 @@ Given a biological results table, the pipeline currently performs:
 
 - A structured QC report printed to the terminal  
 - A saved text file: `qc_report.txt` summarizing all detected issues  
-- (Optionally extensible to plots and additional diagnostics)
+- Three QC diagnostic plots saved as image files:
+  - `expression_distribution.png` — histogram of mean expression values
+  - `log2fc_distribution.png` — histogram of log2 fold-change values
+  - `expression_boxplot.png` — boxplot highlighting outliers in expression values
+
+---
+
+## QC visual diagnostics
+
+In addition to the textual report, the pipeline generates simple visual diagnostics to help quickly identify suspicious distributions and outliers:
+
+- The expression distribution histogram helps detect scale issues and extreme values.
+- The log2FC histogram helps reveal asymmetric or extreme fold-change distributions.
+- The boxplot highlights outliers that may indicate data corruption, unit errors, or normalization problems.
+
+These plots are not meant for biological interpretation, but for **sanity-checking the data before any downstream analysis**.
 
 ---
 
