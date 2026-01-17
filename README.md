@@ -67,6 +67,7 @@ biological-table-qc/
 ├── run_qc.py
 ├── README.md
 └── requirements.txt
+```
 
 ---
 
