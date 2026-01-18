@@ -47,11 +47,11 @@ Given a biological results table, the pipeline currently performs:
 ## What the pipeline produces
 
 - A structured QC report printed to the terminal  
-- A saved text file: `qc_report.txt` summarizing all detected issues  
+- A saved text file in `qc_report.txt` summarizing all detected issues  
 - Three QC diagnostic plots saved in the `outputs/` folder:
-  - `expression_distribution.png` — histogram of mean expression values
-  - `log2fc_distribution.png` — histogram of log2 fold-change values
-  - `expression_boxplot.png` — boxplot highlighting outliers in expression values
+  - `expression_distribution.png` - histogram of mean expression values
+  - `log2fc_distribution.png` - histogram of log2 fold-change values
+  - `expression_boxplot.png` - boxplot highlighting outliers in expression values
 
 ---
 
@@ -126,6 +126,13 @@ folder
 
 ## Example output
 
+After running:
+
+```text
+python generate_example_data.py
+python run_qc.py
+```
+
 The program will:
 - Print a structured QC report to the terminal
 - Save the same report to:
@@ -137,6 +144,13 @@ The report lists:
 - Which checks failed
 - How many rows were affected
 - Which genes/features are involved
+
+Generated images are saves to:
+```text
+outputs/expression_distribution.png
+outputs/log2fc_distribution.png
+outputs/expression_boxplot.png
+```
 
 ---
 
