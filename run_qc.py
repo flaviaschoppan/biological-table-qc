@@ -43,9 +43,9 @@ def main():
     plot_expression_boxplot(df)
 
     print("\nQC plots saved:")
-    print(" - expression_distribution.png")
-    print(" - log2fc_distribution.png")
-    print(" - expression_boxplot.png")
+    print(" - outputs/expression_distribution.png")
+    print(" - outputs/log2fc_distribution.png")
+    print(" - outputs/expression_boxplot.png")
 
 
 if __name__ == "__main__":

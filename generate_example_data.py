@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-def generate_example_data(n_genes=200, output_path="data/example_results.csv"):
+def generate_example_data(n_genes=3000, output_path="data/example_results.csv"):
     np.random.seed(42)
 
     # Generate gene names
