@@ -206,11 +206,10 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# QC outputs
+# Generated analysis outputs
+outputs/
+*.png
 qc_report.txt
-expression_distribution.png
-log2fc_distribution.png
 
 # Personal notes
 notes.md
-
