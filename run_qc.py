@@ -32,10 +32,10 @@ def main():
 
     print(report)
 
-    with open("qc_report.txt", "w", encoding="utf-8") as f:
+    with open("outputs/qc_report.txt", "w", encoding="utf-8") as f:
         f.write(report)
 
-    print("\nQC report saved to qc_report.txt")
+    print("\nQC report saved to outputs/qc_report.txt")
 
     # Generate QC plots
     plot_expression_distribution(df)
