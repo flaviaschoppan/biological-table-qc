@@ -1,4 +1,15 @@
 # =========================
+# Internal documentation (private)
+# =========================
+README_FULL.md
+README_FULL*.md
+
+# =========================
+# Personal / notes
+# =========================
+notes.md
+
+# =========================
 # Python cache / bytecode
 # =========================
 __pycache__/
@@ -32,8 +43,3 @@ data/example_results.csv
 outputs/
 *.png
 qc_report.txt
-
-# =========================
-# Personal / notes
-# =========================
-notes.md
