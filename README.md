@@ -1,5 +1,4 @@
 # Biological Table QC
-
 ## Methodological framework for integrity validation of biological result tables
 
 ---
@@ -26,6 +25,8 @@ The evaluated QC dimensions include:
 - detection of extreme or suspicious values.
 
 All checks are rule-based and inspection-driven, emphasizing transparency over automation.
+
+---
 
 ## Data
 
@@ -56,7 +57,7 @@ This project does not perform biological interpretation.
 
 All findings are methodological and illustrative.
 
---
+---
 
 ## Intended Use
 
@@ -84,4 +85,5 @@ The implementation code included here is intentionally simple and modular, refle
 ## License
 
 This repository is released under the MIT License.
+
 The license applies only to the material distributed in this repository.
